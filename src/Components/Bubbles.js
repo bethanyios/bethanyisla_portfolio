@@ -3,25 +3,40 @@ import React from 'react';
 
 function Bubbles() {
   return (
+    <>
 <section className="bubbles">
-<div className="bubble">Stack
-<div className="rectangle"> </div>
-</div>
+<fragment className="bubble">Stack
+<fragment className="rectangle">
+<ul>
+<li>UX Lead</li>
+<li>JavaScript</li>
+<li>HTML5</li>
+<li>CSS</li>
+<li>React</li>
+<li>Express</li>
+<li>NodeJS</li>
+<li>Figma</li>
+<li>Git</li>
+<li>Postgres SQL</li>
+</ul>
+</fragment>
+</fragment>
 
-<div className="bubble">Profiles
-<div className="rectangle"> </div>
-</div>
+<fragment className="bubble">Profiles
+<fragment className="rectangle"> </fragment>
+</fragment>
 
-<div className="bubble">Experience
-<div className="rectangle"></div>
-</div>
+<fragment className="bubble">Experience
+<fragment className="rectangle"></fragment>
+</fragment>
 
-<div className="bubble">Interests
-<div className="rectangle"> </div>
-</div>
+<fragment className="bubble">Interests
+<fragment className="rectangle"> </fragment>
+</fragment>
 
 
 </section>
+</>
 );
 }
 
