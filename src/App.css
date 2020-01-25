@@ -6,10 +6,10 @@ body {
   display: flex;
 }
 
-.Font {
+.font {
   margin-top: 280px;
   margin-left: 900px;
   font-size: 40px;
   text-align: center;
-  color:  var(--leaf);
+  color: var(--leaf);
 }

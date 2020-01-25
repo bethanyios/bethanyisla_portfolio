@@ -8,7 +8,7 @@ import './Components/bubbles.css';
 function App() {
   return (
       <div>
-      <header className="Font">
+      <header className="font">
       </header>
       <Bubbles />
       </div>
