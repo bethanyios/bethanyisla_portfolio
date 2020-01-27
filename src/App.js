@@ -1,8 +1,8 @@
 import React from 'react';
 // import plantbg from './Components/plantbg.jpg';
-import Bubbles from './Components/Bubbles.js';
+import Bubbles from './Components/Bubbles/bubble-index.js';
 import './App.css';
-import './Components/bubbles.css';
+
 
 
 function App() {
@@ -16,7 +16,3 @@ function App() {
 }
 
 export default App;
-
-
-
-  // <img src={plantbg} alt="background" />

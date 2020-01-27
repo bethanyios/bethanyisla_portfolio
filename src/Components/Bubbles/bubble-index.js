@@ -1,11 +1,12 @@
 import React from 'react';
-
+import "./bubble-style.css";
 
 function Bubbles() {
   return (
-    <>
 <section className="bubbles">
-<fragment className="bubble">Stack
+
+<fragment className="bubble">
+Stack
 <fragment className="rectangle">
 <ul>
 <li>UX Lead</li>
@@ -22,21 +23,23 @@ function Bubbles() {
 </fragment>
 </fragment>
 
-<fragment className="bubble">Profiles
+<fragment className="bubble">
+Profiles
 <fragment className="rectangle"> </fragment>
 </fragment>
 
-<fragment className="bubble">Experience
+<fragment className="bubble">
+Experience
 <fragment className="rectangle"></fragment>
 </fragment>
 
-<fragment className="bubble">Interests
+<fragment className="bubble">
+Interests
 <fragment className="rectangle"> </fragment>
 </fragment>
 
-
 </section>
-</>
+
 );
 }
 
