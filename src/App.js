@@ -1,17 +1,14 @@
-import React from 'react';
+import React from "react";
 // import plantbg from './Components/plantbg.jpg';
-import Bubbles from './Components/Bubbles/bubble-index.js';
-import './App.css';
-
-
+import Collapse from "./Components/Bubbles/index.js";
+import "./App.css";
 
 function App() {
   return (
-      <div>
-      <header className="font">
-      </header>
-      <Bubbles />
-      </div>
+    <div>
+      <header className="font"></header>
+      <Collapse />
+    </div>
   );
 }
 
