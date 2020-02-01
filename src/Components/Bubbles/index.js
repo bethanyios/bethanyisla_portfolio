@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import useCollapse from 'react-collapsed';
-import { Stack } from '../Bubbles/bubble-buttons.js'
-import './bubble-style.css';
+import { Stack, StackText } from '../Bubbles/bubble-buttons.js'
+
 
 function Collapse() {
   const [isOpen, setOpen] = React.useState(false);
@@ -9,23 +9,13 @@ function Collapse() {
 
   return (
     <React.Fragment>
-      <a
+      <section
         {...getToggleProps({onClick: () => setOpen(oldOpen => !oldOpen)})}
       >
-        {isOpen ? 'close' : <Stack />}
-      </a>
-        <ul {...getCollapseProps()} className='rectangle'>
-          <li>UX Lead</li>
-          <li>JavaScript</li>
-          <li>HTML5</li>
-          <li>CSS</li>
-          <li>React</li>
-          <li>Express</li>
-          <li>NodeJS</li>
-          <li>Figma</li>
-          <li>Git</li>
-          <li>Postgres SQL</li>
-        </ul>
+        {isOpen ? <StackText /> : <Stack />}
+          </section>
+
+
 
     </React.Fragment>
   );
