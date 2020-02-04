@@ -9,8 +9,6 @@ const FlipCardStack = props => {
  const handleClick = () => {
    setFlipped( !isFlipped );
 };
-console.log(isFlipped);
-
 
     return (
       <ReactCardFlip isFlipped={isFlipped} flipDirection="verticle">

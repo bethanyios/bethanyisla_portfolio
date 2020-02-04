@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactCardFlip from 'react-card-flip';
-import { ExperienceFront, ExperienceBack } from './FlipComponents';
+import { InterestFront, InterestBack } from './FlipComponents';
 
-const FlipCardExperience = props => {
+const FlipCardInterests = props => {
   const [isFlipped, setFlipped] = React.useState(false);
 
 
@@ -14,10 +14,10 @@ console.log(isFlipped);
 
     return (
       <ReactCardFlip isFlipped={isFlipped} flipDirection="verticle">
-          <ExperienceFront onClick={handleClick}/>
-          <ExperienceBack onClick={handleClick}/>
+          <InterestFront onClick={handleClick}/>
+          <InterestBack onClick={handleClick}/>
       </ReactCardFlip>
     )
   }
 
-export { FlipCardExperience };
+export { FlipCardInterests };
