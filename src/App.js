@@ -1,13 +1,15 @@
 import React from "react";
 // import plantbg from './Components/plantbg.jpg';
-import { FlipCard } from "./Components/Bubbles/FlipCard.js";
+import { FlipCardStack } from "./Components/Bubbles/FlipCardStack.js";
+import { FlipCardProfiles } from "./Components/Bubbles/FlipCardProfiles.js";
 import "./App.css";
 
 function App() {
   return (
     <div>
       <header className="font">Bethany Isla</header>
-      <FlipCard />
+      <FlipCardStack />
+      <FlipCardProfiles/>
     </div>
   );
 }
