@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: var(--texture);
+  color: var(--leaf);
+  opacity: 70%;
+}
+
+ul {
+}
+
+li {
+  list-style: none;
+  padding: 1vw;
+}
+
+li:hover {
+  cursor: pointer;
+}

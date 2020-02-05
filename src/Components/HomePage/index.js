@@ -1,11 +1,10 @@
 import React from "react";
 import { FlipCards } from "../FlipCards/index.js";
-
+import "./style.css"
 
 const HomePage = () => {
   return (
   <div>
-  <header className="font">Bethany Isla</header>
   <section>
   <FlipCards />
   </section>
