@@ -1,15 +1,13 @@
 import React from "react";
-import { FlipCards } from "./Components/FlipCards/index.js";
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import HomePage from "./Components/HomePage/index.js";
 import "./App.css";
 
 function App() {
   return (
-    <div>
-      <header className="font">Bethany Isla</header>
-      <section>
-      <FlipCards />
-      </section>
-    </div>
+    <Router>
+    <Route exact path="/" component={HomePage} />
+    </Router>
   );
 }
 
