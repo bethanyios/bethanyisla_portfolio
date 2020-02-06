@@ -2,17 +2,19 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  background-color: var(--texture);
+  background-color: #F0F0F0;
   color: var(--leaf);
-  opacity: 70%;
+  opacity: 80%;
 }
 
 ul {
+
 }
 
 li {
   list-style: none;
   padding: 1vw;
+
 }
 
 li:hover {
