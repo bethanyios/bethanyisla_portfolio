@@ -8,9 +8,9 @@ const Navbar = ({ setPage }) => {
   };
   return (
     <div className="navbar">
-     <li onClick={handleClick} id="home">
-      Home
-     </li>
+      <li onClick={handleClick} id="home">
+        Home
+      </li>
       <li onClick={handleClick} id="about-me">
         About me
       </li>
