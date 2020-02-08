@@ -4,10 +4,24 @@
 --blue: #7EBBFF;
 --green: #52D9B9;
 --orange: #FF9A3C;
---texture: ##F0F0F0; 
+--texture: ##F0F0F0;
+--chantilly: #FFCBC9;
 
 }
 
 body {
-font-family: 'Kumar One', cursive;
+font-family: 'Kumar One', sans-serif;
+}
+
+h1 {
+  display: flex;
+  background-color: var(--leaf);
+  opacity: 90%;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 10px 120px 5px 120px;
+  justify-content: center;
+  font-size: 60px;
+  color: var(--pink);
+  text-shadow: 3px 4px 5px #000000;
 }

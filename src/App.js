@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "./Components/Navbar/index.js";
 import HomePage from "./Components/HomePage/index.js";
 import AboutMe from "./Components/AboutMe/index.js";
-import ProjectPage from "./Components/Projects/index.js";
+import Projects from "./Components/Projects/index.js";
+
 import "./App.css";
 
 function App() {
@@ -26,14 +27,7 @@ function App() {
     return (
       <div>
         <Navbar setPage={setPage}></Navbar>
-        <ProjectPage />
-      </div>
-    );
-  } else if (page === "contact") {
-    return (
-      <div>
-        <Navbar setPage={setPage}></Navbar>
-
+        <Projects />
       </div>
     );
   }

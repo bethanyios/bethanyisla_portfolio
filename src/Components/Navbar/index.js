@@ -17,9 +17,6 @@ const Navbar = ({ setPage }) => {
       <li onClick={handleClick} id="projects">
         Projects
       </li>
-      <li onClick={handleClick} id="contact">
-        Contact
-      </li>
     </div>
   );
 };
