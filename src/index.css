@@ -1,10 +1,11 @@
 :root {
---chantilly: #FFEAEA;
 --leaf: #343D24;
---blush: #B36E6C;
---dark-blush: #683736;
---texture: #DAE2DC;
---shadow: #888888;
+--pink: #ED8798;
+--blue: #7EBBFF;
+--green: #52D9B9;
+--orange: #FF9A3C;
+--texture: ##F0F0F0; 
+
 }
 
 body {
