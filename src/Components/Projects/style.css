@@ -4,7 +4,7 @@ body {
 
 .project-content {
   display: flex;
-  background-color: var(--leaf);
+  background-color: var(--charcoal);
   opacity: 90%;
   border-radius: 50px;
   padding: 100px;
