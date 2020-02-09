@@ -1,4 +1,4 @@
-body {
+/* body {
   padding-bottom: 200vh;
 }
 
@@ -13,4 +13,10 @@ body {
   font-size: 20px;
   font-family: 'Cambay', sans-serif;
   color: var(--orange);
+} */
+
+.project-display {
+  display: grid;
+  justify-content: center;
+  margin-top: 80px;
 }

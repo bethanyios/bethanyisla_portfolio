@@ -7,6 +7,7 @@ const Navbar = ({ setPage }) => {
     setPage(event.target.id);
   };
   return (
+    <>
     <div className="navbar">
       <li onClick={handleClick} id="home">
         Home
@@ -18,6 +19,7 @@ const Navbar = ({ setPage }) => {
         Projects
       </li>
     </div>
+    </>
   );
 };
 export default Navbar;
