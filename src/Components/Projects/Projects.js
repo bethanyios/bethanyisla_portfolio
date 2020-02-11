@@ -15,7 +15,7 @@ const SignpostProject = props => {
   };
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="verticle">
-      <SignpostFront onClick={handleClick} />
+      <SignpostFront onClick={handleClick}/>
       <SignpostBack onClick={handleClick} />
     </ReactCardFlip>
   );

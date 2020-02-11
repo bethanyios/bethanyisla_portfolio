@@ -3,6 +3,7 @@ import { FlipCards } from "../FlipCards/index.js";
 import "./style.css"
 
 const HomePage = () => {
+
   return (
   <div>
   <section>

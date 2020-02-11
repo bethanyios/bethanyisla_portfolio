@@ -7,8 +7,8 @@ const Projects = () => {
   return (
     <>
       <section className="project-display">
-        <SignpostProject />
-        <SafespaceProject />
+        <SignpostProject className="projects" />
+        <SafespaceProject  className="projects" />
       </section>
       </>
     )
