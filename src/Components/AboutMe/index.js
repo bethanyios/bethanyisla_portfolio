@@ -1,5 +1,6 @@
 import React from 'react';
 import profile from '../../Assets/profile.JPG'
+
 import './style.css';
 
 const AboutMe = () => {
@@ -26,6 +27,7 @@ I find myself deeply engrossed in code, filling any free time I have to jump bac
 With this knowledge in programming I have the flexibility, not only to create powerful products, but to work with a medium I am so compelled by.
 </p>
 </section>
+
 </>
     )
 }

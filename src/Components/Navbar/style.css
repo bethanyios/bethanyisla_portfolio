@@ -11,12 +11,12 @@
 li {
   list-style: none;
   padding: 1vw;
-    transition: transform 0.25s;
+    transition: transform 0.025s;
 }
 
 li:hover {
   cursor: pointer;
-  transform: scale(1.5);
+  transform: scale(1.25);
   color: var(--orange);
 }
 
@@ -24,5 +24,17 @@ li:hover {
 @media screen and (max-width: 800px) {
 .navbar {
 flex-direction: column;
+align-items: flex-end;
+}
+li {
+  list-style: none;
+  padding: 1vw;
+    transition: transform 0.025s;
+}
+
+li:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+  color: var(--orange);
 }
 }

@@ -30,8 +30,9 @@ function App() {
         <Projects />
       </div>
     );
-  }
 }
+}
+
 
 
 
