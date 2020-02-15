@@ -5,13 +5,24 @@
   background-color: #F0F0F0;
   color: var(--leaf);
   opacity: 80%;
+
 }
 
 li {
   list-style: none;
   padding: 1vw;
+    transition: transform 0.25s;
 }
 
 li:hover {
   cursor: pointer;
+  transform: scale(1.5);
+  color: var(--orange);
+}
+
+
+@media screen and (max-width: 800px) {
+.navbar {
+flex-direction: column;
+}
 }

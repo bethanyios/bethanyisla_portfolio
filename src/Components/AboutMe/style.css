@@ -46,7 +46,7 @@ img {
    margin-right: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 .about-content {
   display: flex;
   padding: 20px;
