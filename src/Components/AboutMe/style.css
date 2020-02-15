@@ -37,8 +37,6 @@
     100% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   }
 
-
-
 img {
   border-radius: 50%;
   height: 300px;
@@ -51,9 +49,19 @@ img {
 @media screen and (max-width: 600px) {
 .about-content {
   display: flex;
-  padding: 50px;
+  padding: 20px;
   align-items: center;
   margin: 10px;
-  text-align: center;
+  text-align: justify;
   }
+
+  img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }

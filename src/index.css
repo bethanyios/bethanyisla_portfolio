@@ -8,7 +8,6 @@
 --orange: #FF9A3C;
 --texture: ##F0F0F0;
 --chantilly: #FFCBC9;
-
 }
 
 body {
@@ -37,7 +36,7 @@ h1 {
     padding: 10px;
     margin: 20px;
     justify-content: center;
-    font-size: 40px;
+    font-size: 30px;
     color: var(--pink);
     text-shadow: 3px 4px 5px #000000;
   }
