@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 
 const Navbar = ({ setPage }) => {
+
   const handleClick = event => {
     event.preventDefault();
     setPage(event.target.id);
@@ -12,7 +13,7 @@ const Navbar = ({ setPage }) => {
       <li onClick={handleClick} id="home">
         Home
       </li>
-      <li onClick={handleClick} id="about-me">
+      <li onClick={handleClick} id="about-me" >
         About me
       </li>
       <li onClick={handleClick} id="projects">
