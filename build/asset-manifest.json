@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.49b7ea94.chunk.css",
+    "main.js": "/static/js/main.222cff31.chunk.js",
+    "main.js.map": "/static/js/main.222cff31.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.36bb5b4a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.36bb5b4a.js.map",
+    "static/js/2.1811c1dd.chunk.js": "/static/js/2.1811c1dd.chunk.js",
+    "static/js/2.1811c1dd.chunk.js.map": "/static/js/2.1811c1dd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e6ce4735a8eb7d145ae856f9899ec22c.js": "/precache-manifest.e6ce4735a8eb7d145ae856f9899ec22c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.49b7ea94.chunk.css.map": "/static/css/main.49b7ea94.chunk.css.map",
+    "static/js/2.1811c1dd.chunk.js.LICENSE": "/static/js/2.1811c1dd.chunk.js.LICENSE",
+    "static/media/ExperienceBack.4dac5cee.svg": "/static/media/ExperienceBack.4dac5cee.svg",
+    "static/media/ExperienceFront.f67da822.svg": "/static/media/ExperienceFront.f67da822.svg",
+    "static/media/InterestsBack.0fe7957f.svg": "/static/media/InterestsBack.0fe7957f.svg",
+    "static/media/InterestsFront.f3a8dbf6.svg": "/static/media/InterestsFront.f3a8dbf6.svg",
+    "static/media/ProfileBack.c9b9f222.svg": "/static/media/ProfileBack.c9b9f222.svg",
+    "static/media/ProfileFront.936ac369.svg": "/static/media/ProfileFront.936ac369.svg",
+    "static/media/SafespaceBack.a11bbea8.svg": "/static/media/SafespaceBack.a11bbea8.svg",
+    "static/media/SafespaceFront.ccaba9af.svg": "/static/media/SafespaceFront.ccaba9af.svg",
+    "static/media/SignpostBack.6c5a7cb0.svg": "/static/media/SignpostBack.6c5a7cb0.svg",
+    "static/media/SignpostFront.2c64d384.svg": "/static/media/SignpostFront.2c64d384.svg",
+    "static/media/StackBack.2501de8f.svg": "/static/media/StackBack.2501de8f.svg",
+    "static/media/StackFront.023425be.svg": "/static/media/StackFront.023425be.svg",
+    "static/media/bytes-CV 2020.pdf": "/static/media/bytes-CV 2020.6c3be6cc.pdf",
+    "static/media/image-cv.png": "/static/media/image-cv.35ad2c2d.png",
+    "static/media/App.css": "/static/media/plantbg.cdf00af4.jpg",
+    "static/media/profile.JPG": "/static/media/profile.4759de1e.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36bb5b4a.js",
+    "static/js/2.1811c1dd.chunk.js",
+    "static/css/main.49b7ea94.chunk.css",
+    "static/js/main.222cff31.chunk.js"
+  ]
+}

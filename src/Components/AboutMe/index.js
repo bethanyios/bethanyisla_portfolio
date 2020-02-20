@@ -1,5 +1,7 @@
 import React from 'react';
 import profile from '../../Assets/profile.JPG'
+import cv from '../../Assets/bytes-CV 2020.pdf'
+import imagecv from '../../Assets/image-cv.png'
 
 import './style.css';
 
@@ -8,7 +10,8 @@ const AboutMe = () => {
     <>
 
 <section className="about-content">
-<img src={profile} alt="Bethany Scott"/>
+<img className="profile" src={profile} alt="Bethany Scott"/>
+
 <p>
 I am a Frontend Engineer with a passion for creating beautiful designs, accessible programming and social impact work.
 </p>
@@ -31,6 +34,12 @@ I have found something that I gravitate towards even when I'm not working. I lov
 <p>
 With this knowledge in programming I have the autonomy, not only to create powerful and aesthetic products, but to work with a medium I am so compelled by.
 </p>
+<p>
+Click my CV below to download it as a PDF:
+</p>
+<a href={cv} download><img className="cv" src={imagecv} alt="CV"/></a>
+
+
 </section>
 
 </>

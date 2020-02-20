@@ -11,24 +11,24 @@ function App() {
 
   if (page === "home") {
     return (
-      <div>
+      <>
         <Navbar setPage={setPage}></Navbar>
         <HomePage />
-      </div>
+      </>
     );
   } else if (page === "about-me") {
     return (
-      <div>
+      <>
         <Navbar setPage={setPage}></Navbar>
         <AboutMe />
-      </div>
+      </>
     );
   } else if (page === "projects") {
     return (
-      <div>
+      <>
         <Navbar setPage={setPage}></Navbar>
         <Projects />
-      </div>
+    </>
     );
 }
 }
