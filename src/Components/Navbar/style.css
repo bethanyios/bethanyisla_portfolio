@@ -3,8 +3,7 @@
   flex-direction: row;
   justify-content: flex-end;
   background-color: #F0F0F0;
-  color: var(--leaf);
-
+  color: #343D24CC;
   z-index: 10;
 
 }
