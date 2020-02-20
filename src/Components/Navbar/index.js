@@ -9,7 +9,7 @@ const Navbar = ({ setPage }) => {
   };
   return (
     <>
-    <div className="navbar">
+    <section className="navbar">
       <li onClick={handleClick} id="home">
         Home
       </li>
@@ -19,7 +19,7 @@ const Navbar = ({ setPage }) => {
       <li onClick={handleClick} id="projects">
         Projects
       </li>
-    </div>
+    </section>
     </>
   );
 };
