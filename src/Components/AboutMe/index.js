@@ -22,10 +22,10 @@ My road to programming began far from the tech world.
 From a degree in Latin American studies to learning how to program at an intensive bootcamp, I have taken a leap and challenged myself to give me a range of skills.
 </p>
 <p>
-For a year I lived in Colombia, working with youth organisations: one that educated children on environmental sustainability to empower their community, and another that trained young people in orchestral music to guide them away from violence and poverty.
+For a year I lived in Colombia, working with youth organisations: one that educates children on environmental sustainability to empower their community, and another that trains young people in orchestral music to guide them away from violence and poverty.
 </p>
 <p>
-Now that I have learnt about the influence of programming, and the vastness of what it we are capable of creating, I can’t wait to be part of making an impact on all levels.
+Now that I have learnt about the influence of programming, and the vastness of what we are capable of creating, I can’t wait to be part of making an impact on all levels.
 Combining the inventiveness of programming and the creativeness of a team, I am fascinated by the possibilities of what can be produced.
 </p>
 <p>
