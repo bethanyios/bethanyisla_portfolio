@@ -7,6 +7,7 @@
   grid-column-gap: 100px;
   grid-row-gap: 100px;
   animation: animation 2000ms linear both;
+
 }
 
 @keyframes animation {
